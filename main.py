@@ -1,5 +1,8 @@
 import gini
 
+fiskemader = gini.Gini()
+fiskemader.run()
+
 
 print("Welcome to")
 print("██████╗░███╗░░░███╗███████╗░█████╗░░█████╗░")
