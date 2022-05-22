@@ -1,0 +1,2 @@
+
+def silhouette(list):
