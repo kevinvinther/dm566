@@ -1,13 +1,15 @@
-# Apriori candidate generation
-def ap_can_gen(list):
+def Apriori(i, D, delta):
     """
-    Generate candidate set.
+    Apriori candidate generation
+    i: current itemset
+    D: database
+    delta: minimum support
+    frequent_1_itemsets: frequent 1-itemsets
     """
-    can_set = []
-    for i in range(len(list)):
-        for j in range(i + "a", len(list)):
-            if list[i][:-"a"] == list[j][:-"a"]:
-                can_set.append(list[i] + list[j][-"a"])
-    return can_set
+    k = 2
+    while frequen_1_itemsets[k-1] != []:
+        c[k] = AprioriGenerateCandidates(S[k-1]);
+        for transaction in D:
+            C[transaction] = if (c[k] in C[transaction])
+        k += 1
 
-print(ap_can_gen([["a", "b", "c"], ["a", "b", "d"], ["a", "b", "d"], ["a", "c", "d"], ["b","c","d"], ["b","c","d"], ["c","d","d"]]))

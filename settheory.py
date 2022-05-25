@@ -18,3 +18,4 @@ def power_set_with_duplicates(list1):
 
 
 
+print(intersection([1, 2, 3], [2, 3, 4]))
