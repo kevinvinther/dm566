@@ -1,15 +1,11 @@
-def Apriori(i, D, delta):
-    """
-    Apriori candidate generation
-    i: current itemset
-    D: database
-    delta: minimum support
-    frequent_1_itemsets: frequent 1-itemsets
-    """
-    k = 2
-    while frequen_1_itemsets[k-1] != []:
-        c[k] = AprioriGenerateCandidates(S[k-1]);
-        for transaction in D:
-            C[transaction] = if (c[k] in C[transaction])
-        k += 1
+# apriori candidate generation
+
+def apriori_candidate_generation(itemsets):
+    length = len(itemsets[0])
+
+
+
+    print(length)
+
+apriori_candidate_generation([[1,2,3], [1,2,4], [1,2,5], [1,3,4], [1,3,5], [2,3,4], [2,3,5],[3,4,5]])
 
