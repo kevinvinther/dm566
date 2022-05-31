@@ -43,5 +43,15 @@ def silhouette_coefficient(cluster_list, point_list):
     """
     silhouette_coefficient = 0
     calculated_clusters = []
-        fa
-    
+    for cluster in cluster_list:
+        calculated_clusters.append(get_average_point(cluster, point_list))
+
+    for point in point_list:
+        min_distance = 100
+        for cluster in calculated_clusters:
+            distance = math.sqrt(abs(point[0] - cluster[0])**2 + abs(point[1] - cluster[1])**2)
+            if distance < min_distance:
+                min_distance = distance
+        silhouette_coefficient += (min_distance - abs(point[0] - calculated_clusters[0][0])) / min_distance
+
+    return silhouette_coefficient / len(point_list)
