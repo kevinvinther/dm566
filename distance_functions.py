@@ -48,10 +48,10 @@ def weighted_euclidean(weights, points):
 
 
 
-print("Euclidean: " + str(euclidean_distance([[1,2,3], [3,4,5]])))
-print("Manhattan: " + str(manhattan_distance([[1,2,3], [3,4,5]])))
-print("Maximum: " + str(maximum_distance([[1,2,3], [3,4,5]])))
-print("Weighted Euclidean: " + str(weighted_euclidean([1,2], [[1,2,3], [3,4,5]])))
-##print("Quadratic Form: " + str(quadratic_form([[1,2,3], [3,4,5]])))
+# print("Euclidean: " + str(euclidean_distance([[1,2,3], [3,4,5]])))
+# print("Manhattan: " + str(manhattan_distance([[1,2,3], [3,4,5]])))
+# print("Maximum: " + str(maximum_distance([[1,2,3], [3,4,5]])))
+# print("Weighted Euclidean: " + str(weighted_euclidean([1,2], [[1,2,3], [3,4,5]])))
+# ##print("Quadratic Form: " + str(quadratic_form([[1,2,3], [3,4,5]])))
 
 
